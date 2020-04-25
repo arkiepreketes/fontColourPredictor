@@ -13,11 +13,11 @@ canvas.create_line(300,0,300,400)
 
 def callWhite():
     colour = changeColour()
-    writeToFile(getFileColours(colour), "white")
+    writeResultToFile(getFileColours(colour), "white")
 
 def callBlack():
     colour = changeColour()
-    writeToFile(getFileColours(colour), "black")
+    writeResultToFile(getFileColours(colour), "black")
 
 def changeColour():
     colour = getRGB()
